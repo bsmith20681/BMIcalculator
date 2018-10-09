@@ -1,0 +1,19 @@
+body {
+  background-image: url(../img/breakfast.jpg);
+  background-size: cover; }
+
+#calculator {
+  margin-top: 10rem; }
+  #calculator .container {
+    background-color: white;
+    border-radius: 30px;
+    padding: .5rem 5rem; }
+    #calculator .container button {
+      border: none;
+      background-color: purple;
+      padding: 15px 32px;
+      border-radius: 30px;
+      color: white;
+      font-size: 16px; }
+    #calculator .container td {
+      padding: 10px; }

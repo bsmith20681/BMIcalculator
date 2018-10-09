@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/mains.css">
+</head>
+<body id="body">
+
+<section id="calculator">
+  <div class="container">
+    <div class="row my-5">
+      <div class="col-lg-12">
+        <form action="">
+          <h1 class="text-center pb-3">SEE HOW MUCH CALORIES YOU SHOULD EAT TO LOSE WEIGHT</h1>
+          <table>
+            <tbody>
+              <tr>
+                <td>Gender</td>
+                <td>
+                  <select name="" id="gender">
+                    <option value="5">Male</option>
+                    <option value="-161">Female</option>
+                  </select>
+                </td>
+
+              </tr>
+              <tr>
+                <td>Age</td>
+                <td><input type="text" placeholder="Years" id="age"></td>
+              </tr>
+
+              <tr>
+                <td>Height</td>
+                  <td>
+                  <select name="" id="height">
+                    <option value="142.24">4 feet 8 inches</option>
+                    <option value="144.78">4 feet 9 inches</option>
+                    <option value="147.32">4 feet 10 inches</option>
+                    <option value="1449.86">4 feet 11 inches</option>
+                    <option value="152.40">5 feet 0 inches</option>
+                    <option value="154.94">5 feet 1 inches</option>
+                    <option value="157.48">5 feet 2 inches</option>
+                    <option value="160.02">5 feet 3 inches</option>
+                    <option value="162.56">5 feet 4 inches</option>
+                    <option value="165.10">5 feet 5 inches</option>
+                    <option value="167.64">5 feet 6 inches</option>
+                    <option value="170.18">5 feet 7 inches</option>
+                    <option value="172.72">5 feet 8 inches</option>
+                    <option value="175.26">5 feet 9 inches</option>
+                  </select>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Weight</td>
+                <td><input type="text" placeholder="Pounds" id="weight"></td>
+              </tr>
+
+
+              <tr>
+                <td>Activity Level</td>
+                <td>
+                  <select name="" id="activityLevel">
+                    <option value="1.2">Sedentary (little to no exerise)</option>
+                    <option value="1.375">Lightly Active (light exercise/1-3 days a week)</option>
+                    <option value="1.55">Moderatley Active (moderate exercise/3-5 days a week)</option>
+                    <option value="1.725">Very Active (hard exercise/6-7 days a week)</option>
+                    <option value="1.9">Extremely Active (very heavy/training twice a day)</option>
+                 </select>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+
+        <div class="col-lg-12 mt-3">
+          <button id="calculate">Calculate</button>
+          <h1 id="output"></h1>
+          <h1 id="weightLose"></h1>
+          <h1 id="weightGain"></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <script src="js/bootstrap.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
